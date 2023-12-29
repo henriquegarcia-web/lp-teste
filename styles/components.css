@@ -47,6 +47,10 @@
   padding: 60px 0;
 }
 
+.section.painted {
+  background: rgba(214, 251, 248, 0.2);
+}
+
 @media screen and (max-width: 840px) {
   .section {
     padding: 40px 0;
