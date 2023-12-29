@@ -1,0 +1,235 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  padding-top: 80px;
+}
+
+/* ======================== HERO BANNER ======================== */
+
+.hero_banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 120px 0;
+
+  background-color: #4ba9a9;
+}
+
+.hero_banner_wrapper {
+  z-index: 10;
+  display: flex;
+  column-gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.hero_banner__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 50%;
+}
+
+.hero_banner__content img {
+  width: 95%;
+  max-width: 420px;
+  margin-left: -8px;
+}
+
+.hero_banner__content p {
+  font-size: 15px;
+  font-weight: 700;
+
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.hero_banner__content button.button {
+  border-radius: 5px;
+  margin-top: 5px;
+  max-width: 80%;
+
+  font-weight: 700;
+
+  border: none;
+  color: #4aa5a5;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.hero_banner__image {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.hero_banner__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 840px) {
+}
+
+/* ======================== EARNINGS ======================== */
+
+.earning_list {
+  display: flex;
+  gap: 10px;
+}
+
+.earning_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  width: calc(100% - 45px);
+  border-radius: 16px;
+  padding: 30px 20px;
+
+  border: 1px solid #4ba9a9;
+}
+
+.earning_card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.earning_card h2 {
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
+  text-align: center;
+
+  color: #4ba9a9;
+}
+
+.earning_card p {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 840px) {
+  .earning_list {
+    flex-direction: column;
+  }
+}
+
+/* ======================== TOOL ======================== */
+
+.tool_section_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.tool_section_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.tool_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+  width: calc(50% - 47px);
+  border-radius: 8px;
+  padding: 20px;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tool_card_icon img {
+  display: flex;
+  width: 20px;
+}
+
+.tool_card_title {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  text-align: center;
+
+  color: #4ba9a9;
+}
+
+.tool_section_image {
+  display: flex;
+  width: 100%;
+}
+
+.tool_section_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 840px) {
+  .tool_section_wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+/* ======================== FAQ ======================== */
+
+.faq_wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.faq_card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.18);
+}
+
+.faq_card_header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+
+.faq_card_header p {
+  display: flex;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  color: #4aa5a5;
+}
+
+.faq_card_header span {
+  display: flex;
+  cursor: pointer;
+}
+
+.faq_card_header span img {
+  width: 15px;
+}
+
+.faq_card_content {
+  padding: 0 20px 20px 20px;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  color: rgba(0, 0, 0, 0.75);
+}
