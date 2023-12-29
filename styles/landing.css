@@ -76,6 +76,9 @@
 }
 
 @media screen and (max-width: 840px) {
+  .hero_banner__content {
+    width: 100%;
+  }
 }
 
 /* ======================== EARNINGS ======================== */

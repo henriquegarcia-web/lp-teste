@@ -56,3 +56,30 @@
   column-gap: 10px;
   height: fit-content;
 }
+
+.header_wrapper.desktop {
+  display: flex;
+}
+
+.header_wrapper.mobile {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_wrapper.mobile .header__menu img,
+.header_wrapper.mobile .header__account img {
+  width: 26px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+  .header_wrapper.mobile {
+    display: flex;
+  }
+
+  .header_wrapper.desktop {
+    display: none;
+  }
+}
