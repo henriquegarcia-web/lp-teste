@@ -157,11 +157,11 @@
 
 .tool_card_icon img {
   display: flex;
-  width: 20px;
+  width: 26px;
 }
 
 .tool_card_title {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 15px;
   font-weight: 700;
   text-align: center;
